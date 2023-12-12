@@ -1,0 +1,1767 @@
+
+
+/* header styles */
+header {
+    background-color: rgba(46, 53, 54, 0.8); /* Transparent background */
+    padding: 15px 0;
+    margin: 0;
+}
+
+/* logo style */
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 60px;
+    height: 55px;
+}
+
+/* overlay nav bar style */
+overlaybar {
+    background-color: rgba(7, 9, 12, 0.7); /* Adjust alpha for transparency */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+overlaybar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+overlaybar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+overlaybar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Saira Condensed', sans-serif;
+    transition: color 0.3s ease-in-out;
+}
+
+overlaybar ul li a:hover {
+    text-decoration: underline;
+    color: #ffd700; /* Change color on hover */
+}
+/*Main navbar style*/
+main-nav {
+    background-color: rgba(11, 11, 12, 0); /* Fully transparent background */
+    padding: 15px 0;
+}
+
+main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+main-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Saira Condensed', sans-serif;
+    transition: color 0.3s ease-in-out;
+}
+
+main-nav ul li a:hover {
+    text-decoration: underline;
+    color: #ffd700; /* Change color on hover */
+}
+/*home location section header style*/
+.loca-header {
+    text-align: center;
+}
+
+.home-location {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+
+
+
+
+}
+
+.home-adventure {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+}
+
+.homeimage {
+    width: 100%;
+
+
+}
+
+.text {
+    position: absolute;
+    top: 200px;
+    right: 30px;
+    left: 30px;
+    bottom: 30px;
+    text-align: center;
+    font-family: saira condensed;
+    font-size: 30px;
+    font-weight: 200;
+    color: #020201;
+
+}
+
+#slogan {
+    font-style: poppins;
+    color: #020514;
+    font-weight: 100;
+}
+
+
+.home-location {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.location-head {
+
+
+    color: #000;
+    text-align: center;
+}
+
+.home-loca-img {
+
+    max-width: 70%;
+
+
+
+}
+
+/*home location serction paragraph style*/
+.home-loca-para {
+
+    color: #000;
+    text-align: left;
+    padding: 3%;
+
+}
+
+/*home restuarant section header style*/
+.restu-header {
+    text-align: center;
+}
+
+/*home resturant section image style*/
+.home-restuarant {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+/*home restuarant section image style*/
+.home-rest-img {
+    float: right;
+    max-width: 50%;
+    margin-left: 20px;
+
+}
+
+/*home restuarant section paragraph style*/
+.home-rest-para {
+    padding: 3%;
+}
+
+/*home adventure section style*/
+.home-adventure {
+    display: flex;
+    align-items: center;
+
+}
+
+/*home adventure section image style*/
+.home-adv-img {
+
+    float: right;
+
+
+
+}
+
+/*home adventure section header style*/
+.home-adv-header {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #000;
+    text-align: center;
+
+}
+
+/*home adventure section paragraph style*/
+.home-adv-para {
+    padding: 3%;
+    color: #000;
+    float: right;
+
+
+
+}
+
+/*home location section button style*/
+.home-loca-button button {
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding */
+    border: none;
+    /* Remove button border */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+}
+
+/*home restuarant section button style*/
+.home-rest-button button {
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding */
+    border: none;
+    /* Remove button border */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+
+}
+
+/*home adventure  section button style*/
+.home-adv-button button {
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding */
+    border: none;
+    /* Remove button border */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+
+}
+
+.pre-book-button {
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding */
+    border: none;
+    /* Remove button border */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+}
+
+.pre-email-button {
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding */
+    border: none;
+    /* Remove button border */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+    margin: 20%;
+}
+
+/* footer style*/
+footer {
+    background-color: #f3ebeb;
+    /* Background color for the footer */
+    color: #fff;
+    /* Text color for the footer */
+    text-align: center;
+    /* Center-align text within the footer */
+    padding: 20px;
+    /* Add padding for spacing */
+}
+
+/*social icons styles*/
+.social-icons {
+    margin: 0 auto;
+    /* Center-align the social icons horizontally */
+    max-width: 150px;
+    /* Adjust the maximum width as needed */
+}
+
+.social-icons a {
+    margin: 0 10px;
+    /* Add spacing between social icons */
+    display: flex;
+}
+
+.social-icons img {
+    width: 30px;
+    /* Adjust the icon size as needed */
+    height: 30px;
+}
+
+/*branch page styles*/
+.branches-image {
+    width: 100%;
+
+}
+
+/* matara branch style*/
+.branch-matara {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+}
+
+.marata-baran-para {
+    justify-self: center;
+    padding: 10%;
+    text-align: left;
+
+
+}
+
+.matara-image {
+    width: 650px;
+    height: 350x;
+
+}
+
+.matara-bran-button button {
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding */
+    border: none;
+    /* Remove button border */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+    text-align: right;
+}
+
+/*sigiriya branch style*/
+.branch-sigiriya {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+
+
+}
+
+.sigiriya-baran-para {
+    justify-self: center;
+    padding: 10%;
+    text-align: left;
+}
+
+.sigiriya-image {
+    width: 650px;
+    height: 350x;
+}
+
+.sigiriya-bran-button button {
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding */
+    border: none;
+    /* Remove button border */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+    text-align: right;
+}
+
+/*hambantota branch style*/
+.branch-hambantota {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+
+}
+
+.hambantota-branch-para {
+    justify-self: center;
+    padding: 10%;
+    text-align: left;
+
+
+}
+
+.hambantota-imge {
+    width: 650px;
+    height: 350x;
+}
+
+.hambantota-bran-button button {
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding */
+    border: none;
+    /* Remove button border */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+    text-align: right;
+
+
+}
+
+/*branch page header styles*/
+.branch-head {
+    text-align: center;
+
+
+}
+
+/*restuarant page styles*/
+.restaurant-image {
+    width: 100%
+}
+
+/*retuarant page sections styles*/
+.fine {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+
+
+}
+
+.casual {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+
+
+}
+
+.special {
+
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+
+}
+
+/*fine resturant section styles*/
+/*fine resturant section header styles*/
+
+.fine-head {
+    text-align: center;
+
+}
+
+/*fine resturant section image styles*/
+
+.Fine-Dining-Restuarant-image {
+    width: 650px;
+    height: 350px;
+
+}
+
+/*fine resturant section  paragraph styles*/
+
+.fine-reset-para {
+
+    text-align: left;
+    float: right;
+    padding: 3%;
+
+}
+
+/*casual resturant section header styles*/
+
+.cascual-head {
+    text-align: center;
+
+}
+
+/*casual resturant section image styles*/
+
+.Casual-Dining-Restuarant-image {
+    width: 650px;
+    height: 350px;
+
+
+}
+
+
+/*casual resturant section header styles*/
+.cascual-rest-para {
+    text-align: left;
+    float: right;
+    padding: 3%;
+}
+
+/*special resturant section header styles*/
+.special-head {
+    text-align: center;
+
+}
+
+/*special resturant section image styles*/
+.Special-Theme-Restuarant-image {
+    width: 650px;
+    height: 350px;
+
+}
+
+
+/*special resturant section para styles*/
+.special-rest-para {
+    text-align: left;
+    float: right;
+    padding: 3%;
+
+
+}
+
+/*/* resturant section ,maps styles*/
+.map-rest {
+    width: 100%;
+    height: 300px;
+    style-border: 0;
+    loading: lazy;
+    rpolicy: no-referrer-when-downgrade;
+
+
+}
+
+/* resturant page event section styles*/
+#events {
+    text-align: center;
+}
+
+.wedding {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+
+
+}
+
+#wed-header {
+    text-align: center;
+}
+
+.wed-img {
+    width: 850px;
+    display: flex;
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+
+}
+
+.wedding-para {
+    text-align: left;
+    padding: 4%;
+
+}
+
+.wedding-img {
+    display: flex;
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+
+}
+
+.wed-button button {
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding */
+    border: none;
+    /* Remove button border */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+
+
+
+}
+
+.other-section {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+
+}
+
+.other-image {
+    float: right;
+
+
+
+
+}
+
+.other-img {
+    display: flex;
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+    padding-bottom: 5%;
+
+}
+
+.other-button button {
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding */
+    border: none;
+    /* Remove button border */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+
+
+
+
+}
+
+.other-head {
+    text-align: center;
+    padding: 5px;
+}
+
+/* room page styles*/
+.room-image {
+    width: 100%;
+
+}
+
+/*room page deluxe  section style*/
+.room-deluxe {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+
+
+
+}
+
+/*room page deluxe family  section style*/
+.room-deluxe-family {
+
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+
+
+}
+
+/*room page deluxe plus  section style*/
+.room-deluxe-plus {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+
+
+
+}
+
+/*room page suite  section style*/
+.room-suites {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+
+
+
+}
+
+/*room page deluxe  header section style*/
+.deluxe-header {
+    text-align: center;
+}
+
+/*room page deluxe family  header section style*/
+.deluxe-family-header {
+    text-align: center;
+}
+
+/*room page deluxe plus header section style*/
+.deluxe-plus-header {
+    text-align: center;
+}
+
+/*room page suites  header section style*/
+.suites-header {
+    text-align: center;
+}
+
+/*room page deluxe  section image style*/
+.deluxe-room {
+    width: 750px;
+    height: 375px;
+}
+
+/*room page deluxe  section image style*/
+.deluxe-family-room {
+    width: 750px;
+
+
+
+}
+
+/*room page deluxe  section image style*/
+.deluxe-plus-room {
+    width: 750px;
+
+
+}
+
+/*room page suites section image style*/
+.suites-room {
+    width: 750px;
+
+}
+
+/*room page deluxe section button style*/
+.deluxe-button button {
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding */
+    border: none;
+    /* Remove button border */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+
+
+}
+
+/*room page deluxe family  section button style*/
+.deluxe-family-button button {
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding */
+    border: none;
+    /* Remove button border */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+
+
+
+
+}
+
+/*room page deluxe  plus section button style*/
+.deluxe-plus-button button {
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding */
+    border: none;
+    /* Remove button border */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+
+
+
+}
+
+/*room page suites section button style*/
+.suites-button button {
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding */
+    border: none;
+    /* Remove button border */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+
+
+
+}
+
+/*room page deluxe section para style*/
+.room-deluxe-para {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+
+}
+
+/*room page deluxe family  section para style*/
+.room-deluxe-family-para {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+}
+
+/*room page deluxe plus section para style*/
+.room-deluxe-plus-para {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+
+}
+
+/*room page suite section para style*/
+.room-suites-para {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+
+}
+
+/*room page deluxe section image style*/
+.room-deluxe-img {
+    display: flex;
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+
+}
+
+/*room page deluxe family section image style*/
+.room-deluxe-family-img {
+    display: flex;
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+
+
+}
+
+/*room page deluxe plus  section image style*/
+.room-deluxe-plus-img {
+    display: flex;
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+
+}
+
+/*room page suites section image style*/
+.room-suites-img {
+    display: flex;
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+
+
+
+}
+
+/*deluxe page styles*/
+
+/*deluxe page image styles*/
+.del-1 {}
+
+.del-2 {}
+
+.del-3 {}
+
+.del-4 {}
+
+/*deluxe page paragraph  styles*/
+.del-para {
+    text-align: center;
+    font-size: larger;
+}
+
+/*deluxe page amenities section styles*/
+.deluxe-amenities {
+
+    background-color: #f0f0f0;
+    /* Example background color */
+    padding: 20px;
+    text-align: left;
+    /* Align content to the left */
+    margin-top: auto;
+    /* Push the section to the bottom */
+}
+
+/*deluxe page amenities section button styles*/
+.del-button button {
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding */
+    border: none;
+    /* Remove button border */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+
+
+
+}
+
+.del-button {
+    text-align: right;
+    margin-top: 1px;
+}
+
+/*deluxe family page syles*/
+
+/*deluxe family page  para syles*/
+.del-fam-para {
+    text-align: center;
+
+}
+
+/*deluxe family page image syles*/
+.del-fam-1 {}
+
+.del-fam-2 {}
+
+.del-fam-3 {}
+
+.del-fam-4 {}
+
+
+
+
+/*deluxe family page amenities section button styles*/
+.del-family-button button {
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding */
+    border: none;
+    /* Remove button border */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+
+
+
+
+}
+
+/*deluxe plus page  styles*/
+
+/*deluxe plus page para styles*/
+.del-plus-para {
+    text-align: center;
+}
+
+/*deluxe plus page image styles*/
+.del-plus-1 {}
+
+.del-plus-2 {}
+
+.del-plus-3 {}
+
+.del-plus-4 {}
+
+/*deluxe plus page amenities section button styles*/
+.del-plus-button button button {
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding */
+    border: none;
+    /* Remove button border */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+
+
+}
+
+/*suites styles*/
+
+/*suites page para styles*/
+.suites-para {
+    text-align: center;
+}
+
+/*suites page image  styles*/
+.del-suites-1 {}
+
+.del-suites-2 {}
+
+.del-suites-3 {}
+
+.del-suites-4 {}
+
+
+
+/*suites page amenities section button styles*/
+.suites-button button {
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding */
+    border: none;
+    /* Remove button border */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+
+
+}
+
+/*adventure page styles*/
+/*adventure page 1st(main)*/
+.adventure-image {
+    width: 100%;
+
+}
+
+/*adventure page 1st section styles*/
+.main-adv {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+
+}
+
+/*adventure page 2nd section styles*/
+.camping {
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+}
+
+/*adventure page 3rd section styles*/
+.water-safari {
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+/*adventure page 4th section styles*/
+.SAFARI-adventure {
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+
+
+}
+
+/*adventure page 5th section styles*/
+.hiking {
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+
+}
+
+/*adventure page first section styles*/
+.camping-image {
+    width: 500px;
+    height: 320px;
+}
+
+.jestski-ride {
+    width: 500px;
+    margin-top: 20px;
+    /* Adjust margin-top to move the image vertically */
+
+}
+
+.safari-image {
+    width: 500px;
+    margin-bottom: 300px;
+
+}
+
+.safari-2-image {
+    margin-top: 65px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.haking-kataragama {
+
+    width: 500px;
+
+}
+
+.pre-image {
+    width: 500px;
+}
+
+.last-image {
+    width: 500px;
+}
+
+/*adventure page heder section styles*/
+.main-adv {
+    text-align: center;
+}
+
+.camp {
+    text-align: center;
+
+}
+
+.CAMPING-para {
+    text-align: left;
+    padding: 3%;
+}
+
+.watersafari-head {
+    text-align: center;
+}
+
+.SAFARI-header {
+    text-align: center;
+}
+
+.watersafari-para {
+    padding: 3%;
+    text-align: left;
+}
+
+.SAFARI-para {
+    padding: 3%;
+    text-align: left;
+}
+
+.hiking-head {
+    text-align: center;
+}
+
+.hiking-para {
+    padding: 3%;
+    text-align: left;
+}
+
+/*offer page styles*/
+
+/*offer page  main paragraph section styles*/
+.offer-main-para {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+}
+
+/*offer page  main paragraph  header section styles*/
+.offer-main-para {
+    text-align: center;
+}
+
+/*offer page  pre planner header styles*/
+.pre-planner {
+    text-align: center;
+}
+
+/*offer page  last planner section  header styles*/
+.last-header {
+    text-align: center;
+}
+
+/*offer pre planner paragraph section styles*/
+.state {
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+/*offer page section styles*/
+.pre-offer {
+    padding: 30px;
+    background-color: #f0f0f0;
+    margin-bottom: 60px;
+
+
+
+}
+
+.last-offer {
+    padding: 30px;
+    background-color: #f0f0f0;
+    margin-bottom: 60px;
+}
+
+.last-minute {
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.adventure-main-para {
+    text-align: center;
+
+}
+
+/*event page style*/
+.main-event-image {
+    width: 1567px;
+    height: 800px;
+}
+
+.event-1 {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+
+}
+
+.eve-wed {
+    text-align: CENTER;
+}
+
+.event-wed {
+    width: 1000px;
+    height: 700px;
+    margin-left: 250px;
+
+}
+
+.event-para {
+    text-align: center;
+
+}
+
+.event-2 {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+
+}
+
+.EVE-BIRTH {
+    text-align: center;
+
+}
+
+.event-wed-2 {
+    width: 1000px;
+    height: 700px;
+    margin-left: 250px;
+
+
+}
+
+.event-2-para {
+    text-align: center;
+}
+
+/*location page style*/
+.loc-image {
+    width: 100%;
+
+}
+
+.main-loc {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+
+
+
+}
+
+.loc-main-para {
+    text-align: center;
+
+}
+
+.map-loc {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+    style-border: 0;
+
+    loading: lazy;
+    rpolicy: no-referrer-when-downgrade;
+
+}
+
+.loc-table {
+    width: 700px;
+    align-items: center;
+}
+
+.travell {
+    display: flex;
+    /* Use flexbox to create a horizontal layout */
+}
+
+.loc-1 {
+    flex: 1;
+    /* Each section takes up an equal portion of the container */
+    border: 0px solid #ccc;
+    /* Optional: Adding borders for visualization */
+    padding: 20px;
+    text-align: center;
+}
+
+.entrance-img {
+    width: 400px;
+    padding: 3%;
+
+}
+
+.view-img {
+    width: 400px;
+    height: 400px;
+    padding: 3%;
+}
+
+.travell {
+    padding: 40px;
+
+}
+
+.bo-img {
+    width: 100%;
+}
+
+/*booking page styles*/
+.booking-para {
+    text-align: center;
+}
+
+/*booking page section 2 styles*/
+.booking-section-2 {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+
+
+}
+
+/*booking page  section 3styles*/
+.booking-section-3 {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+
+
+}
+
+/*booking page  header styles*/
+.book-header {
+    text-align: center;
+}
+
+/*booking page adventure section image  styles*/
+.ad-booking-image {
+    width: 700px;
+    height: 600px;
+}
+
+/*booking page  section 4styles*/
+.contact {
+    width: 1567px;
+    height: 800;
+
+}
+
+.con-section {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+
+
+}
+
+.comtactus-image {
+    width: 800px;
+    height: 700px;
+}
+
+/* Style the form container */
+.hotel-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style labels */
+.hotel-form label {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}
+
+/* Style input fields */
+.hotel-form input[type="text"],
+.hotel-form input[type="date"],
+.hotel-form input[type="number"] {
+
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the submit button */
+.hotel-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Style the submit button on hover */
+.hotel-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.adventure.form-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style labels */
+.adventure.form-form label {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}
+
+/* Style input fields */
+.adventure.form-form input[type="text"],
+.adventure.form-form input[type="email"],
+.adventure.form-form input[type="number"],
+.adventure.form-form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/*  adventure booking form Style checkboxes */
+.adventure.form-form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/*adventure booking form Style the submit button */
+.adventure.form-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/*adventure booking form  Style the submit button on hover */
+.adventure.form-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.hotel-form input[type="submit"] {
+    background-color: #007bff;
+    /* Background color */
+    color: #fff;
+    /* Text color */
+    padding: 10px 20px;
+    /* Padding around text */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    font-size: 18px;
+    /* Font size */
+}
+
+/* Style the submit button on hover */
+.hotel-form input[type="submit"]:hover {
+    background-color: #0056b3;
+    /* Change background color on hover */
+
+}
+
+/* Style the contact section */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.contact-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+}
+
+.contact-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-container input[type="text"],
+.contact-container input[type="email"],
+.contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-container textarea {
+    resize: vertical;
+}
+
+.contact-container input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-container input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the footer */
+footer {
+    display: flex;
+    justify-content: center;
+    /* Horizontally center-align the content */
+    align-items: center;
+    /* Vertically center-align the content */
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Style the footer logo */
+.footer-logo {
+    margin-right: 0px;
+    /* Add spacing between the logo and social icons */
+    width: 100px;
+    height: 80px;
+    align-items: center;
+}
+
+/* Style the social icons list */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    /* Arrange the icons horizontally */
+}
+
+/* Style the individual social icon */
+.social-icons li {
+    margin-right: 10px;
+    /* Add spacing between social icons */
+}
+
+/* Style the social icon links */
+.social-icons li a {
+    text-decoration: none;
+}
+
+/*gallery page styles*/
+
+
+.row1 {
+    width: 300px;
+    height: 200px;
+}
+
+.row2 {
+    width: 300px;
+    height: 200px;
+
+}
+
+.row3 {
+    width: 300px;
+    height: 200px;
+
+}
+
+.row4 {
+    width: 300px;
+    height: 200px;
+
+
+}
+
+.row5 {
+    width: 300px;
+    height: 200px;
+
+}
+
+.row6 {
+    width: 300px;
+    height: 200px;
+
+}
+
+.row7 {
+    width: 300px;
+    height: 200px;
+
+
+}
+
+.row8 {
+    width: 300px;
+    height: 200px;
+
+}
+
+.row9 {
+    width: 300px;
+    height: 200px;
+
+
+}
+
+.row10 {
+    width: 300px;
+    height: 200px;
+
+
+}
+
+.row11 {
+    width: 300px;
+    height: 200px;
+
+
+}
+
+.row12 {
+    width: 300px;
+    height: 200px;
+
+
+}
+
+.row13 {
+    width: 300px;
+    height: 200px;
+
+
+}
+
+.row14 {
+    width: 300px;
+    height: 200px;
+
+
+}
+
+.row15 {
+    width: 300px;
+    height: 200px;
+
+
+}
+
+
+.box {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box-text {
+    justify-content: center;
+    text-align: center;
+}
+
+.box-w {
+    justify-content: center;
+    text-align: center;
+    padding-left: 3%;
+}
+
+.box-r {
+
+    padding-left: 3%;
+}
+
+.gallery {
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+}
